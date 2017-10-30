@@ -215,6 +215,11 @@ return [
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
 
         Collective\Html\HtmlServiceProvider::class,
+
+        /*
+         * 跨域问题（ Access-Control-Allow-Origin ）
+         */
+        Barryvdh\Cors\ServiceProvider::class,
     ],
 
     /*
@@ -277,6 +282,8 @@ return [
 
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+
+        'cors' => \Barryvdh\Cors\HandleCors::class,
     ],
 
 ];

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7d81ee3dbc847234806c492cb832baa",
+    "content-hash": "ccf6ae44d68927530ec3ec3a10bb16c7",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -94,16 +94,16 @@
         },
         {
             "name": "barryvdh/laravel-cors",
-            "version": "v0.9.3",
+            "version": "v0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-cors.git",
-                "reference": "2551489de60486471434b0c7050f7fc65f9c9119"
+                "reference": "1326460c591e5299d43e266de52a4141c5c66561"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-cors/zipball/2551489de60486471434b0c7050f7fc65f9c9119",
-                "reference": "2551489de60486471434b0c7050f7fc65f9c9119",
+                "url": "https://api.github.com/repos/barryvdh/laravel-cors/zipball/1326460c591e5299d43e266de52a4141c5c66561",
+                "reference": "1326460c591e5299d43e266de52a4141c5c66561",
                 "shasum": ""
             },
             "require": {
@@ -120,7 +120,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.9-dev"
+                    "dev-master": "0.10-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -153,7 +153,7 @@
                 "crossdomain",
                 "laravel"
             ],
-            "time": "2017-08-28T11:42:05+00:00"
+            "time": "2017-08-28T12:10:56+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
