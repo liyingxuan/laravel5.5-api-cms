@@ -22,6 +22,7 @@
   "dependencies": {
     "bower": "^1.8.2",
     "gulp": "^3.9.1",
-    "minimatch": "^3.0.4"
+    "minimatch": "^3.0.4",
+    "npm": "^6.0.1"
   }
 }
